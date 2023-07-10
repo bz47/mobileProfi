@@ -22,7 +22,7 @@ body {
 
 .container img {
   width: 30%;
-  height: 70%;
+  height: max(30%, 600px);
 }
 
 .container p {
