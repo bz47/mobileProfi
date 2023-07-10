@@ -7,4 +7,24 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: lightblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100vh;
+  border: solid brown 2px;
+}
+
+.container img {
+  width: 30%;
+  height: 70%;
+}
+
+.container p {
+  width: 80%;
 }
