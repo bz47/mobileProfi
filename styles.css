@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -10,18 +11,16 @@
   overflow-y: scroll;
   width: 100vw;
   height: 100vh;
-  border: solid brown 2px;
   scroll-snap-type: y mandatory;
-  scroll-snap-type: x mandatory;
 }
 
 .container .box {
   min-height: 95vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   scroll-snap-align: center;
-  scroll-behavior: smooth;
 }
 
 .container .box:nth-child(1) {
